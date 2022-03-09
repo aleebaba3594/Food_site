@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.mian_div {
+  min-height: 100vh;
+  background-image: url(./pexels-photo-3298633.jpeg);
+  background-size: cover;
+}
+
+#inp {
+  outline: none;
+  border: none;
+  color: #477699;
+  /* color: red; */
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.to_overflow {
+  overflow: hidden;
+}
+.scale {
+  transition-duration: 1s;
+}
+.scale:hover {
+  transform: scale(1.2);
+}
+.seedetails_btn {
+  position: relative;
+  top: -80px;
+  left: 58%;
+}
+
+a {
+  text-decoration: none;
+}
